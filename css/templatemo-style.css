@@ -61,7 +61,7 @@ p {
 }
 .navbar-brand {
     color: #fff;
-    font-weight:300;
+    font-weight:400;
     font-size: 25px;
 }
 .navbar-brand:hover,
@@ -80,7 +80,7 @@ p {
 .fixed-header ul li a{
     text-decoration:none;
     color:#fff;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 300;
     padding: 10px 30px 0;    
 }
@@ -121,7 +121,7 @@ p {
 .last {
     padding-right: 0px;
     padding-left: 0px;
-    min-height:284px !important;    
+    min-height:350px !important;    
 }
 .background {
     background-color: #fff;
@@ -318,7 +318,9 @@ p {
         margin: 0 0 10px;
     }
     .btn {
-        margin-top: 15px;        
+        margin: 0 auto;
+        margin-top: 15px;
+        display: block;        
     }
     .background {
         background-color: #fff;        
@@ -339,7 +341,9 @@ p {
         padding: 0 40px;
     }
     .btn {
+        margin: 0 auto;
         margin-top: 10px;
+        display: block;
     }
     .btn-contact {
         margin-top: 0;
@@ -374,7 +378,9 @@ p {
         margin: 0 0 20px;
     }
     .btn {
-        margin-top: 20px;        
+        margin: 0 auto;
+        margin-top: 20px;
+        display: block;   
     }
     .last {
         min-height: 284px !important;
@@ -445,11 +451,13 @@ p {
     .pad-l-3 {
         padding-left: 15px;
     }
-}
+}btn
 
 @media screen and (max-width:500px) {
     .btn {
+        margin: 0 auto;
         margin-top: 10px;
+        display: block;
     }
 }
 
