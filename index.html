@@ -1,31 +1,259 @@
----
-layout: default
----
+<!DOCTYPE html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/templatemo-style.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
 
+<!--
+Puzzle Template
+http://www.templatemo.com/tm-477-puzzle
+-->
+    <title>Haedicke Counseling</title>
+</head>
 
- <div class="post-container">
+<body>
+    <div class="fixed-header">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>                        
+                </button>
+                <a class="navbar-brand" href="#home">Haedicke Counseling</a>
+            </div>
+            <nav class="main-menu">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#docs">Resources</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    
+    <div class="container">
+        <section class="col-md-12 content" id="home">
+           <div class="col-lg-6 col-md-6 content-item">
+               <img src="images/home.jpg" alt="home image" class="tm-image">
+           </div>
+           <div class="col-lg-6 col-md-6 content-item content-item-1 background">
+               <h2 class="main-title text-center dark-blue-text">Austin Haedicke, MA, LAPC</h2>
+               <img style="width: 30%; height: auto; float: right" src="images/profile.jpg">
+               <p>I am a Licensed Associate Professional Counselor providing play and individual therapy services to children and 
+               adolescents (ages 4 - 18 years old) under direction and supervision at Out-of-the Box Solutions, Inc.</p>
+               <p>I work primarily from a person / child centered perspective and employ play and narrative therapy techniques, however, I am adamant about adapting to the needs of my clients and utilize a variety of other practices when the need is necessitated.</p>
+               <a href="#services"><button type="button" class="btn btn-big dark-blue-bordered-btn">Services</button></a>
+               <a href="#contact"><button type="button" class="btn btn-big dark-blue-bordered-btn">Contact Me</button></a>
+               <!-- <a href="#contact"><button type="button" class="btn btn-big dark-blue-btn">Contact Me</button></a> -->
+           </div>
+       </section>
 
-  <h2 class="post-title">Blog</h2>
+    <section class="col-md-12 content padding" id="services">
+        <div class="col-lg-6 col-md-6 col-md-push-6 content-item">
+          <!-- Carousel -->
+          <div id="carousel-services" class="carousel slide" data-ride="carousel" data-interval="3000">
+              <!-- Indicators -->
+              <!-- <ol class="carousel-indicators">
+                  <li data-target="#carousel-services" data-slide-to="0" class="active"></li>
+                  <li data-target="#carousel-services" data-slide-to="1"></li>
+                  <li data-target="#carousel-services" data-slide-to="2"></li>
+                  <li data-target="#carousel-services" data-slide-to="3"></li>
+              </ol> -->
+              <!-- Wrapper for Slides -->
+              <div class="carousel-inner" role="listbox">
+                  <div class="item active">
+                      <img src="images/services1.jpg" alt="slide one">
+                  </div>
+                  <div class="item">
+                      <img src="images/services2.jpg" alt="slide two">
+                  </div>
+                  <div class="item">
+                      <img src="images/services3.jpg" alt="slide three">
+                  </div>
+                  <div class="item">
+                      <img src="images/services4.jpg" alt="slide four">
+                  </div>
+              </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-md-pull-6 content-item background flexbox">
+           <h2 class="section-title">Counseling and Psychotherapy</h2>
+           <p class="section-text">Psychotherapy is an inherently interpersonal and relational process that often involves deep exploration, acceptance of, and regulation of the vast dynamics of the human psyche.</p>
+           <p class="section-text">I focus on using <em><a href="http://www.a4pt.org/?page=WhyPlayTherapy">play therapy</a>, narrative, psychodynamic, and other expressive techniques</em>.  However, I also punctuate treatment with an 
+emphasis on meeting the client's present need which often requires a wide arrary of technical approches to work with distressing issues 
+such as:</p>
+           <ul class="dark-blue-text">
+               <li>+ Trauma, Sexual Abuse, Physical Abuse, Neglect</li>
+               <li>+ Anger, Anxiety, Depression, Fear, Emotional Instability,</li>
+               <li>+ Attachment and Separation, Divorce, Death, and Grief</li>
+           </ul>
+           <a href="#about"><button type="button" class="btn btn-big dark-blue-bordered-btn">About Me</button></a>
+       </div>
 
-  <hr>
+   </section>
 
-  {% for post in site.posts %}
-    <div class ="post-preview">
-      <span class="post-title">
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-          {{ post.title }}
-        </a>
-      </span>
+    <section class="col-md-12 content" id="about">
+       <div class="col-lg-6 col-md-6 content-item">
+           <img src="images/aboutme.jpg" alt="aboutme_image" class="tm-image">
+       </div>
+       <div class="col-lg-6 col-md-6 content-item background flexbox">
+           <h2 class="section-title">About Me</h2>
+           <p>I have worked with children and adolescents in a variety of settings including inpatient and partial hospitalization as well as outpatient environments.  I believe that play is the language of children and so it is the primary medium for assisting them in working through their difficulties.</p>
+           <p>Since 2014 I have been an active member in the <a href="https://aapweb.com">American Academy of Psychotherapists</a>, and in 2015 received my Master of Arts degree in Psychology from the University of West Georgia.  Currently I am pursuing licensure as a professional counselor in the State of Georiga, as well as certification as a play therapist through <a href="https://www.a4pt.org">The Association for Play Therapy</a>.</p>
+           <a href="#contact"><button type="button" class="btn btn-big dark-blue-bordered-btn">Contact Me</button></a>
+           <div>
+               <!-- <button type="button" class="btn dark-blue-bordered-btn normal-btn">Small Button</button>
+               <button type="button" class="btn yellow-btn normal-btn">Download</button>
+               <button type="button" class="btn green-btn normal-btn">Demo</button> -->
+           </div>             
+       </div>
+   </section>
 
-      <span class="post-time">
-        <p>{{ post.date | date: "%b %-d, %Y" }}</p>
-      </span>
+    <section class="col-md-12 content" id="contact">
+       <div class="col-lg-6 col-md-6 col-md-push-6 content-item">
+           <img src="images/contact.jpg" alt="Image" class="tm-image">
+       </div>
+       <div class="col-lg-6 col-md-6 col-md-pull-6 content-item background flexbox">
+           <h2 class="section-title">Contact Information</h2>
+           <p>Address: 242 Creekstone Ridge, Woodstock, GA 30188<br/>
+           Email:  <a href="mailto:haedickecounseling@gmail.com">haedickecounseling@gmail.com</a><br/>
+           Telephone: <a href="tel:678670-2453">(678) 670 - 2453</a></p>
 
+           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13216.797312860443!2d-84.53395873288906!3d34.09003378059569!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f56b8903b6278d%3A0xe14a85a226306191!2s242+Creekstone+Ridge%2C+Woodstock%2C+GA+30188!5e0!3m2!1sen!2sus!4v1476553666504" width="100%" height="50%" frameborder="0" style="border:0" allowfullscreen></iframe>
+           <br/>
+           <p>
+               <a href="https://twitter.com/ahaedicke_apc"><i class="fa fa-3x fa-twitter-square"></i></a>
+               <a href="https://plus.google.com/u/1/104362535450371112647"><i style="margin-left: 5%" class="fa fa-3x fa-google-plus-square"></i></a>
+               <a href="https://linkedin.com/in/austinhaedicke"><i style="margin-left: 5%" class="fa fa-3x fa-linkedin-square"></i></a>
+               <a href="https://therapists.psychologytoday.com/rms/prof_detail.php?profid=308634&sid=1476551243.3275_7652&name=Austin+Haedicke&search=Austin%20Haedicke&tr=ResultsName"><img style="width: auto height: 10%; margin-left: 5%" src="images/psychtoday_verified.jpg" alt="psychology_today"></a>
+           </p>
+           <!--<div class="row"> -->
+           <!-- <form method="post" name="contact-form" class="contact-form">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                <div class="form-group">
+                    <input name="name" type="text" class="form-control" id="name" placeholder="Your Name..." required>
+                </div>    
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 pad-l-3">
+                <div class="form-group contact-field">
+                    <input name="email" type="email" class="form-control" id="email" placeholder="Your Email..." required>
+                </div>    
+            </div>
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="form-group contact-field">
+                    <input name="subject" type="text" class="form-control" id="subject" placeholder="Your Subject..." required>
+                </div>    
+            </div>
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="form-group contact-field">
+                    <textarea name="message" rows="5" class="form-control" id="message" placeholder="Write your message..." required></textarea>
+                </div>    
+            </div>
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="form-group margin-b-0">
+                    <button type="submit" id="form-submit" class="btn no-bg btn-contact">Submit</button>
+                </div>    
+            </div>
+        </form> -->
+        <!--</div> -->
+        <!-- <div id="msgSubmit" class="h3 text-center hidden">Message Submitted!</div> -->
 
     </div>
 
-    {% endfor %}
+</section>
 
-
+<footer class="col-md-12 content" id="docs">
+ <div class="col-lg-6 col-md-6 last">
+   <img src="images/resources.jpg" alt="resources_image" class="tm-image">
+</div>
+<div class="col-lg-6 col-md-6 background last about-text-container">
+   <h2 class="section-title">Additional Resources & Documents</h2>
+   <!-- <p class="about-text"></p> -->  
+   <div style="overflow-y: auto; height: 100px">
+   <ul class="dark-blue-text">
+       <li>+ <a href="http://nctsn.org/">National Childhood Traumatic Stress Network</a></li>
+       <li>+ <a href="http://www.a4pt.org/?page=ParentsCornerHomePag">Information for Parents: Play Therapy</a></li>
+       <li>+ <a href="http://www.nctsn.org/resources/audiences/parents-caregivers">Information for Parents: Child Trauma</a></li>
+       <li>+ <a href="http://a4pt.org">United States Association for Play Therapy</a></li>
+       <li>+ <a href="http://gapt.org">Georgia Association for Play Therapy</a></li>
+       <!-- <li>+ <a href="">Intake Materials</a></li> -->
+       <!-- <li>+ <a href="">Informed Consent (adult / parent)</a></li> -->
+       <!-- <li>+ <a href="">Minor Ascnet to Treatment (adolescent)</a></li> -->
+       <!-- <li>+ <a href="">Social Media Policy</a></li> -->
+   </ul>
+   </div>
+</div>
+</footer>
 
 </div>
+
+<div class="text-center footer">
+	<div class="container">
+		<p style="background-color: rgba(0, 0, 0, 0.5)">Copyright @ 2016 Austin Haedicke 
+    
+    	| Design: <a href="http://www.templatemo.com/tm-477-puzzle" target="_parent" title="Puzzle Template">Puzzle</a></p>
+        </div>
+    </div>
+</div>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.singlePageNav.min.js"></script>
+
+<script>
+
+// Check scroll position and add/remove background to navbar
+function checkScrollPosition() {
+    if($(window).scrollTop() > 50) {
+      $(".fixed-header").addClass("scroll");
+  } else {        
+      $(".fixed-header").removeClass("scroll");
+  }
+}
+
+$(document).ready(function () {   
+    // Single page nav
+    $('.fixed-header').singlePageNav({
+        offset: 59,
+        filter: ':not(.external)',
+        updateHash: true        
+    });
+
+    checkScrollPosition();
+
+    // nav bar
+    $('.navbar-toggle').click(function(){
+        $('.main-menu').toggleClass('show');
+    });
+
+    $('.main-menu a').click(function(){
+        $('.main-menu').removeClass('show');
+    });
+});
+
+$(window).on("scroll", function() {
+    checkScrollPosition();    
+});
+</script>
+
+<!-- Google Analytics -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-63934221-3', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+</body>
+</html>
