@@ -302,6 +302,10 @@ p {
     margin-bottom: 25px;
 }
 
+.contact-info li {
+    margin-right: -2.5em;
+}
+
 @media screen and (max-width:1199px){
     .content-item {
         min-height: 470px !important;
